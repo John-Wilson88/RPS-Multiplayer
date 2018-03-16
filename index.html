@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+
+	<head>
+
+		<meta charset="utf-8">
+      	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<link rel="stylesheet" href="assets/css/reset.css"/>
+
+	</head>
+
+	<body>
+		<div class="container">
+
+			<h1 id="game-heading"> RPS Online! </h1>
+			
+			<!-- Player sign in, and player greeting -->
+			<div class="row">
+				
+				<div class="search">
+				<form>
+
+					<input type="text" class="player-name" /> <button type="submit" class="init-player"> Enter! </button>
+
+				</form>
+				</div>
+			</div>
+
+			<!-- player moves -->
+			<div class="row">
+				<div class="col-md-4 player-one"> 
+				
+				</div>
+				<div class="col-md-4 results">		
+
+				</div>
+				<div class="col-md-4 player-two">
+					
+				</div>
+			</div>
+
+			<!-- player chat box -->
+			<div class="row">
+				<div class="col-md-12 chat-box"> </div>
+				<div class="col-md-12">
+					<input type="text" class="player-text" /> <button type="submit" class="send-text"> Send </button>
+				</div>				
+			</div>
+		</div>
+
+
+
+
+
+		<!-- all Javascript files -->
+		<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js" ></script>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="assets/javascript/game.js"></script>
+
+	</body>
+
+</html>

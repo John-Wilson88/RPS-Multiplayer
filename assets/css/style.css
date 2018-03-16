@@ -1,0 +1,28 @@
+.player-one {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	
+	width: 25px;
+}
+.player-two {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+	width: 25px;	
+}
+.results {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+	width: 25px;
+}
+.chat-box {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 50px;
+	width: 25px;
+} 
